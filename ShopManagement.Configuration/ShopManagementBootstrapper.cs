@@ -7,10 +7,12 @@ using _01_Query.Query;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
+using ShopManagement.Application.contracts.Comment;
 using ShopManagement.Application.contracts.Product;
 using ShopManagement.Application.contracts.ProductCategory;
 using ShopManagement.Application.contracts.ProductPicture;
 using ShopManagement.Application.contracts.Slider;
+using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
@@ -45,6 +47,10 @@ namespace ShopManagement.Configuration
 
             service.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
             service.AddTransient<IProductQuery, ProductQuery>();
+
+            service.AddTransient<ICommentApplication, CommentApplication>();
+            service.AddTransient<ICommentRepository, CommentRepository>();
+
 
 
 

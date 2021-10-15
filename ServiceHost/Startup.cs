@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using _0_Framework.Application;
+using BlogManagement.Infrastructure.Configuration;
 using DiscountManagement.Configuration;
 using InventoryManagement.Infrastructure.Configuration;
 using ShopManagement.Configuration;
@@ -31,11 +33,13 @@ namespace ServiceHost
             var connectionString = Configuration.GetConnectionString("LampShadeDb");
 
 
-
-
+            
             ShopManagementBootstrapper.Configure(services, connectionString);
             DiscountManagementBootstrapper.Configure(services, connectionString);
             InventoryManagementBootstrapper.Configure(services,connectionString);
+            BlogBootstrapper.Configure(services,connectionString);
+
+            services.AddTransient<IFileUploader, FileUploader>();
             services.AddRazorPages();
         }
 

@@ -9,6 +9,7 @@ using _01_Query.Contracts.Product;
 using DiscountManagement.infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EfCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EfCore;
@@ -34,14 +35,14 @@ namespace _01_Query.Query
             var inventory =
                 _inventoryContext
                     .Inventory
-                    .Select(x => new { x.ProductId, x.UnitPrice,x.InStock })
+                    .Select(x => new { x.ProductId, x.UnitPrice, x.InStock })
                     .ToList();
 
             var discounts =
                 _discountContext
                     .CustomerDiscounts
                     .Select(x => new { x.DiscountRate, x.ProductId, x.StartDate, x.EndDate })
-                    .Where(x=>x.EndDate>DateTime.Now && x.StartDate<DateTime.Now)
+                    .Where(x => x.EndDate > DateTime.Now && x.StartDate < DateTime.Now)
                     .ToList();
 
 
@@ -49,7 +50,8 @@ namespace _01_Query.Query
                 _context
                     .Products
                     .Include(x => x.Category)
-                    .Include(x=>x.ProductPictures)
+                    .Include(x => x.ProductPictures)
+                    .Include(x=>x.Comments)
                     .Select(x => new ProductQueryModel()
                     {
                         Id = x.Id,
@@ -66,6 +68,7 @@ namespace _01_Query.Query
                         MetaDescription = x.MetaDescription,
                         Keywords = x.Keywords,
                         Pictures = MapProductPicture(x.ProductPictures),
+                        Comments = MapComments(x.Comments),
                     })
                     .FirstOrDefault(x => x.Slug == slug);
 
@@ -73,7 +76,7 @@ namespace _01_Query.Query
                 inventory
                     .FirstOrDefault(x => x.ProductId == product.Id);
 
-            if (inventoryePrice!=null)
+            if (inventoryePrice != null)
             {
                 product.IsInStock = inventoryePrice.InStock;
                 var price = inventoryePrice.UnitPrice;
@@ -94,7 +97,7 @@ namespace _01_Query.Query
                     product.HasDiscount = discount > 0;
 
 
-                    var priceWithDiscount =price - (price * discount) / 100;
+                    var priceWithDiscount = price - (price * discount) / 100;
 
 
                     product.PriceWithDiscount = priceWithDiscount.ToMoney();
@@ -102,24 +105,39 @@ namespace _01_Query.Query
                 }
             }
 
-            
 
-          
+
+
 
             return product;
         }
 
-        private List<ProductPictureQueryModel> MapProductPicture(List<ProductPicture>  pictures)
+        private static List<CommentQueryModel> MapComments(List<Comment> comments)
         {
-            return pictures.Select(x => new ProductPictureQueryModel
+            return comments
+                .Where(x => x.IsConfirmed)
+                .Where(x=>!x.IsCanceled)
+                .Select(x => new CommentQueryModel
             {
-                IsRemoved= x.IsRemoved,
-                Picture = x.Picture,
-                 PictureAlt = x.PictureAlt,
-                 PictureTitle = x.PictureTitle,
-                 ProductId = x.ProductId,
+                Id = x.Id,
+                Message = x.Message,
+                Name = x.Name,
+            }).OrderByDescending(x=>x.Id).ToList();
+        }
 
-            }).Where(x => !x.IsRemoved).ToList();
+        private static List<ProductPictureQueryModel> MapProductPicture(List<ProductPicture> pictures)
+        {
+            return pictures
+                .Select(x => new ProductPictureQueryModel
+                {
+                    IsRemoved = x.IsRemoved,
+                    Picture = x.Picture,
+                    PictureAlt = x.PictureAlt,
+                    PictureTitle = x.PictureTitle,
+                    ProductId = x.ProductId,
+
+                }).Where(x => !x.IsRemoved)
+                .ToList();
         }
 
         public List<ProductQueryModel> GetlatestArrivals()

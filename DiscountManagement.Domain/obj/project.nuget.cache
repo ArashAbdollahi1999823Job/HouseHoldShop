@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2YjZ7SgYoQGzt+4KMer5e07lcTl4I9MNTCMCff3GM6/KjeLPLp3Ll/Def26io3KprvYraQ7I8U3uXd363y8h8g==",
+  "dgSpecHash": "mokY6gcTo2RuD0ITRPPn90yhk7OkmYzjuUux0wewqL1I0onEPniZjO5ahCL5JM9M+OccGLy+XVSbjNhtT6gigQ==",
   "success": true,
-  "projectFilePath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+  "projectFilePath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saman\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\1.1.0\\microsoft.aspnetcore.antiforgery.1.1.0.nupkg.sha512",
     "C:\\Users\\saman\\.nuget\\packages\\microsoft.aspnetcore.authorization\\1.1.0\\microsoft.aspnetcore.authorization.1.1.0.nupkg.sha512",

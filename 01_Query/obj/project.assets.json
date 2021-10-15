@@ -2669,6 +2669,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "1.1.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "1.1.0",
           "Microsoft.EntityFrameworkCore": "5.0.0"
         },
         "compile": {
@@ -8689,11 +8691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\01_Query\\01_Query.csproj",
+      "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\01_Query\\01_Query.csproj",
       "projectName": "01_Query",
-      "projectPath": "D:\\ProjectGit\\HouseHoldShop\\01_Query\\01_Query.csproj",
+      "projectPath": "D:\\darsam\\Projects\\LampShade\\01_Query\\01_Query.csproj",
       "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectGit\\HouseHoldShop\\01_Query\\obj\\",
+      "outputPath": "D:\\darsam\\Projects\\LampShade\\01_Query\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8710,14 +8712,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj": {
-              "projectPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj"
+            "D:\\darsam\\Projects\\LampShade\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj": {
+              "projectPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj"
             },
-            "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
-              "projectPath": "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
+            "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
+              "projectPath": "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
             },
-            "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
-              "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
+            "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+              "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
             }
           }
         }

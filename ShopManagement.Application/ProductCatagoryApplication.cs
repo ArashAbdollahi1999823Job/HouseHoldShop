@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using ShopManagement.Application.contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
@@ -9,14 +9,15 @@ namespace ShopManagement.Application
     public class ProductCategoryApplication : IProductCategoryApplication
     {
 
+        private readonly IFileUploader _fileUploader;
         private readonly IProductCategoryRepository _productCategoryRepository;
-      
         
 
         
-        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository)
+        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository, IFileUploader fileUploader)
         {
             _productCategoryRepository = productCategoryRepository;
+            _fileUploader = fileUploader;
         }
 
 
@@ -35,10 +36,11 @@ namespace ShopManagement.Application
             else
             {
                 var slug = command.Slug.Slugify();
-
+                var path = $"{command.Slug}";
+                var picturepath = _fileUploader.Upload(command.Picture, path);
                 var productCategory = new ProductCategory
                 (command.Name, command.Description
-                    ,"", command.PictureAlt
+                    ,picturepath, command.PictureAlt
                     , command.PictureTitle, command.Keywords
                     , slug, command.MetaDescription);
 
@@ -57,19 +59,20 @@ namespace ShopManagement.Application
 
             if (productCategory == null)
             {
-                return operation.Failed("رکورد با اطلاعات درخواست شده یافت نشد");
+                return operation.Failed(ApplicationMessages.RecordNotFound);
             }
             else if (_productCategoryRepository.Exists(x => x.Name == command.Name && x.Id != command.Id))
             {
-                return operation.Failed("امکان ثبت کاربر تکراری وجود ندارد");
+                return operation.Failed(ApplicationMessages.DuplicatedRecord);
             }
             else
             {
                 var slug = command.Slug.Slugify();
-
+                var picturePath = $"{command.Slug}";
+                var fileName = _fileUploader.Upload(command.Picture,picturePath);
                 productCategory.Edit(
                     command.Name, command.Description,
-                    "", command.PictureAlt,
+                    fileName, command.PictureAlt,
                     command.PictureTitle, command.Keywords
                     , slug, command.MetaDescription
                 );

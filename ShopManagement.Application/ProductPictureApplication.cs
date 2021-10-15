@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using _0_Framework.Application;
 using ShopManagement.Application.contracts.ProductPicture;
+using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 
 namespace ShopManagement.Application
@@ -11,10 +12,14 @@ namespace ShopManagement.Application
     {
 
         private readonly IProductPictureRepository _productPictureRepository;
+        private readonly IProductRepository _productRepository;
+        private readonly IFileUploader _fileUploader;
 
-        public ProductPictureApplication(IProductPictureRepository productPictureRepository)
+        public ProductPictureApplication(IProductPictureRepository productPictureRepository, IProductRepository productRepository, IFileUploader fileUploader)
         {
             _productPictureRepository = productPictureRepository;
+            _productRepository = productRepository;
+            _fileUploader = fileUploader;
         }
 
 
@@ -25,17 +30,20 @@ namespace ShopManagement.Application
         {
             var operation = new OperationResult();
 
-            if (_productPictureRepository.Exists(
+        /*    if (_productPictureRepository.Exists(
                 x => x.Picture == command.Picture &&
                      x.ProductId == command.ProductId
                      ))
             {
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
             }
-            else
-            {
+            else*/
+           // {
+           var product = _productRepository.GetProductWhitCategory(command.ProductId);
+           var path = $"{product.Category.Slug}//{product.Slug}";
+           var picturePath = _fileUploader.Upload(command.Picture, path);
                 var productPicture = new ProductPicture(
-                    command.ProductId, command.Picture
+                    command.ProductId, picturePath
                     , command.PictureAlt, command.PictureTitle);
 
 
@@ -44,7 +52,7 @@ namespace ShopManagement.Application
                 _productPictureRepository.SaveChanges();
 
                 return operation.IsSuccess();
-            }
+          //  }
         }
 
         public OperationResult Edit(EditProductPicture command)
@@ -52,23 +60,25 @@ namespace ShopManagement.Application
             var operation = new OperationResult();
 
 
-            var productPicture = _productPictureRepository.GetBy(command.Id);
+            var productPicture = _productPictureRepository.GetWithProductAndCategory(command.Id);
 
             if (productPicture == null)
             {
                 return operation.Failed(ApplicationMessages.RecordNotFound);
             }
-            else if (_productPictureRepository.Exists(
+       /*     else if (_productPictureRepository.Exists(
                 x =>
                     x.Id != command.Id &&
                    x.Picture == command.Picture &&
                    x.ProductId == command.ProductId))
             {
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
-            }
+            }*/
             else
             {
-                productPicture.Edit(command.ProductId, command.Picture, command.PictureAlt, command.PictureTitle);
+                var path = $"{productPicture.Product.Category.Slug}//{productPicture.Product.Slug}";
+                var picturePath = _fileUploader.Upload(command.Picture, path);
+                productPicture.Edit(command.ProductId, picturePath, command.PictureAlt, command.PictureTitle);
 
                 _productPictureRepository.SaveChanges();
                 return operation.IsSuccess();

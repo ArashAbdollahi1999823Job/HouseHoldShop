@@ -1,3 +1,7 @@
+
+
+
+
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -50,6 +54,10 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
 
         public JsonResult OnPostEdit(EditProductCategory command)
         {
+            if (ModelState != null )
+            {
+
+            }
             var result = _productCategoryApplication.Edit(command);
             return new JsonResult(result);
         }

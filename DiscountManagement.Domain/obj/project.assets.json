@@ -2185,6 +2185,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "1.1.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "1.1.0",
           "Microsoft.EntityFrameworkCore": "5.0.0"
         },
         "compile": {
@@ -7079,11 +7081,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+      "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
       "projectName": "DiscountManagement.Domain",
-      "projectPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+      "projectPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
       "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\obj\\",
+      "outputPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7100,11 +7102,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
-              "projectPath": "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj"
+            "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj": {
+              "projectPath": "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj"
             },
-            "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj": {
-              "projectPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj"
+            "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj": {
+              "projectPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj"
             }
           }
         }

@@ -2707,6 +2707,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "1.1.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "1.1.0",
           "Microsoft.EntityFrameworkCore": "5.0.0"
         },
         "compile": {
@@ -8705,11 +8707,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj",
+      "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj",
       "projectName": "DiscountManagement.infrastructure.EFCore",
-      "projectPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj",
+      "projectPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj",
       "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\obj\\",
+      "outputPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.infrastructure.EFCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8726,11 +8728,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
-              "projectPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+            "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+              "projectPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
             },
-            "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
-              "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
+            "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+              "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
             }
           }
         }

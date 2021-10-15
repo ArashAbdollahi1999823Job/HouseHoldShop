@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HZ9tsN/ty1MGwIQKEuaBvCcYOGdD5KnGdgP1GyNV/NcHJ7YLIVBOdNnw+A+SAYC00YOk+2mOrZY1aSPjFhdezg==",
+  "dgSpecHash": "UQPdGazV3G7bKm2c7ctMZ6rRDKhLfbAYd4jBICiyc+WXWr5PH337oBHQHlmc0TDkc3u6RvrHnag9Hy8/hX/QAA==",
   "success": true,
-  "projectFilePath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj",
+  "projectFilePath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saman\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\saman\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\1.1.0\\microsoft.aspnetcore.antiforgery.1.1.0.nupkg.sha512",

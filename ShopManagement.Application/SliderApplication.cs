@@ -9,17 +9,21 @@ namespace ShopManagement.Application
     public class SliderApplication : ISliderApplication
     {
         private readonly ISliderRepository _sliderRepository;
+        private readonly IFileUploader _fileUploader;
 
-        public SliderApplication(ISliderRepository sliderRepository)
+        public SliderApplication(ISliderRepository sliderRepository, IFileUploader fileUploader)
         {
             _sliderRepository = sliderRepository;
+            _fileUploader = fileUploader;
         }
 
         public OperationResult Create(CreateSlider command)
         {
             var operation = new OperationResult();
 
-            var slider = new Slider(command.Picture, command.PictureAlt, command.PictureTitle
+            var path = "slides";
+            var picturepath = _fileUploader.Upload(command.Picture, path);
+            var slider = new Slider(picturepath, command.PictureAlt, command.PictureTitle
             , command.Heading, command.Title, command.Text, command.Link,command.BtnText);
 
             _sliderRepository.Create(slider);
@@ -41,7 +45,9 @@ namespace ShopManagement.Application
             }
             else
             {
-                slider.Edit(command.Picture, command.PictureAlt, command.PictureTitle
+                var path = "slides";
+                var picturepath = _fileUploader.Upload(command.Picture, path);
+                slider.Edit(picturepath, command.PictureAlt, command.PictureTitle
                     , command.Heading, command.Title, command.Text,command.Link, command.BtnText);
 
                 _sliderRepository.SaveChanges();

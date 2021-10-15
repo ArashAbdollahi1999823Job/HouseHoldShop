@@ -1,0 +1,15 @@
+D:\darsam\Projects\LampShade\BlogManagement.Application.Contract\bin\Debug\net5.0\BlogManagement.Application.Contract.deps.json
+D:\darsam\Projects\LampShade\BlogManagement.Application.Contract\bin\Debug\net5.0\BlogManagement.Application.Contract.dll
+D:\darsam\Projects\LampShade\BlogManagement.Application.Contract\bin\Debug\net5.0\ref\BlogManagement.Application.Contract.dll
+D:\darsam\Projects\LampShade\BlogManagement.Application.Contract\bin\Debug\net5.0\BlogManagement.Application.Contract.pdb
+D:\darsam\Projects\LampShade\BlogManagement.Application.Contract\bin\Debug\net5.0\0_Framework.dll
+D:\darsam\Projects\LampShade\BlogManagement.Application.Contract\bin\Debug\net5.0\0_Framework.pdb
+D:\darsam\Projects\LampShade\BlogManagement.Application.Contract\obj\Debug\net5.0\BlogManagement.Application.Contract.csproj.AssemblyReference.cache
+D:\darsam\Projects\LampShade\BlogManagement.Application.Contract\obj\Debug\net5.0\BlogManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\darsam\Projects\LampShade\BlogManagement.Application.Contract\obj\Debug\net5.0\BlogManagement.Application.Contract.AssemblyInfoInputs.cache
+D:\darsam\Projects\LampShade\BlogManagement.Application.Contract\obj\Debug\net5.0\BlogManagement.Application.Contract.AssemblyInfo.cs
+D:\darsam\Projects\LampShade\BlogManagement.Application.Contract\obj\Debug\net5.0\BlogManagement.Application.Contract.csproj.CoreCompileInputs.cache
+D:\darsam\Projects\LampShade\BlogManagement.Application.Contract\obj\Debug\net5.0\BlogManagement.Application.Contract.csproj.CopyComplete
+D:\darsam\Projects\LampShade\BlogManagement.Application.Contract\obj\Debug\net5.0\BlogManagement.Application.Contract.dll
+D:\darsam\Projects\LampShade\BlogManagement.Application.Contract\obj\Debug\net5.0\ref\BlogManagement.Application.Contract.dll
+D:\darsam\Projects\LampShade\BlogManagement.Application.Contract\obj\Debug\net5.0\BlogManagement.Application.Contract.pdb

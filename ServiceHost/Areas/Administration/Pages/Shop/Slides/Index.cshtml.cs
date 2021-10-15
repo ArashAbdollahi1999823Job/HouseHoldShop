@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using ShopManagement.Application.contracts.Comment;
 using ShopManagement.Application.contracts.Product;
 using ShopManagement.Application.contracts.ProductPicture;
 using ShopManagement.Application.contracts.Slider;
@@ -13,14 +14,15 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
 
     public class IndexModel : PageModel
     {
-        [TempData] 
+        [TempData]
         public string message { get; set; }
 
 
 
-        public List<SliderViewModel>Slides;
+        public List<SliderViewModel> Slides;
 
         private readonly ISliderApplication _sliderApplication;
+        public CommentSearchModel SearchModel;
 
 
 
@@ -97,3 +99,5 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
         }
     }
 }
+
+

@@ -11,6 +11,7 @@ namespace ShopManagement.Domain.ProductPictureAgg
     {
         public EditProductPicture GetDetails(long id);
 
+        ProductPicture GetWithProductAndCategory(long id);
         public List<ProductPictureViewModel> Search(ProductPictureSearchModel searchModel);
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6ld8BQLJ7709cNh3YtWnOI0zRwbRbk4XbfBjyuou6dxRKZYKv7w0m4SyHoSs0LKIYC2ez864gVelvTRSSlYkcQ==",
+  "dgSpecHash": "tIU7nziJSTiUtEecwHexiCeuIOOqzC36jmR5Jg8JvWz0Pqw7U65WI0WfoYEH1eW3b6O3hwSdubYtf/isggjPqg==",
   "success": true,
-  "projectFilePath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
+  "projectFilePath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saman\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\saman\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\1.1.0\\microsoft.aspnetcore.antiforgery.1.1.0.nupkg.sha512",

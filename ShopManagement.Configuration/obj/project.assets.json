@@ -2722,6 +2722,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "1.1.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "1.1.0",
           "Microsoft.EntityFrameworkCore": "5.0.0"
         },
         "compile": {
@@ -8828,11 +8830,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
+      "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
       "projectName": "ShopManagement.Configuration",
-      "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
+      "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
       "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Configuration\\obj\\",
+      "outputPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Configuration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8849,17 +8851,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\ProjectGit\\HouseHoldShop\\01_Query\\01_Query.csproj": {
-              "projectPath": "D:\\ProjectGit\\HouseHoldShop\\01_Query\\01_Query.csproj"
+            "D:\\darsam\\Projects\\LampShade\\01_Query\\01_Query.csproj": {
+              "projectPath": "D:\\darsam\\Projects\\LampShade\\01_Query\\01_Query.csproj"
             },
-            "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj": {
-              "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj"
+            "D:\\darsam\\Projects\\LampShade\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj": {
+              "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj"
             },
-            "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application\\ShopManagement.Application.csproj": {
-              "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application\\ShopManagement.Application.csproj"
+            "D:\\darsam\\Projects\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj": {
+              "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj"
             },
-            "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
-              "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
+            "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+              "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
             }
           }
         }

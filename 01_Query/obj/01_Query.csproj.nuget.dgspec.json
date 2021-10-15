@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectGit\\HouseHoldShop\\01_Query\\01_Query.csproj": {}
+    "D:\\darsam\\Projects\\LampShade\\01_Query\\01_Query.csproj": {}
   },
   "projects": {
-    "D:\\ProjectGit\\HouseHoldShop\\01_Query\\01_Query.csproj": {
+    "D:\\darsam\\Projects\\LampShade\\01_Query\\01_Query.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\01_Query\\01_Query.csproj",
+        "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\01_Query\\01_Query.csproj",
         "projectName": "01_Query",
-        "projectPath": "D:\\ProjectGit\\HouseHoldShop\\01_Query\\01_Query.csproj",
+        "projectPath": "D:\\darsam\\Projects\\LampShade\\01_Query\\01_Query.csproj",
         "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectGit\\HouseHoldShop\\01_Query\\obj\\",
+        "outputPath": "D:\\darsam\\Projects\\LampShade\\01_Query\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj"
+              "D:\\darsam\\Projects\\LampShade\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj"
               },
-              "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
+              "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
               },
-              "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
+              "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
+    "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj",
+        "projectPath": "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\obj\\",
+        "outputPath": "D:\\darsam\\Projects\\LampShade\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,6 +104,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -128,14 +136,14 @@
         }
       }
     },
-    "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj": {
+    "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj",
+        "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj",
         "projectName": "DiscountManagement.Application.Contract",
-        "projectPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj",
+        "projectPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj",
         "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Contract\\obj\\",
+        "outputPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,11 +160,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj"
+              "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj"
+              "D:\\darsam\\Projects\\LampShade\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj"
               }
             }
           }
@@ -195,14 +203,14 @@
         }
       }
     },
-    "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+    "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
         "projectName": "DiscountManagement.Domain",
-        "projectPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\obj\\",
+        "outputPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -219,11 +227,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj"
+              "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj"
+              "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj"
               }
             }
           }
@@ -256,14 +264,14 @@
         }
       }
     },
-    "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj": {
+    "D:\\darsam\\Projects\\LampShade\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj",
+        "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj",
         "projectName": "DiscountManagement.infrastructure.EFCore",
-        "projectPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj",
+        "projectPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\obj\\",
+        "outputPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -280,11 +288,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
               },
-              "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
+              "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
               }
             }
           }
@@ -333,14 +341,14 @@
         }
       }
     },
-    "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+    "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj",
+        "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj",
         "projectName": "InventoryManagement.Application.Contract",
-        "projectPath": "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj",
+        "projectPath": "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj",
         "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Application.Contract\\obj\\",
+        "outputPath": "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Application.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -357,11 +365,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj"
+              "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj"
+              "D:\\darsam\\Projects\\LampShade\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj"
               }
             }
           }
@@ -394,14 +402,14 @@
         }
       }
     },
-    "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+    "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
         "projectName": "InventoryManagement.Domain",
-        "projectPath": "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "projectPath": "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Domain\\obj\\",
+        "outputPath": "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -418,11 +426,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj"
+              "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
+              "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
               }
             }
           }
@@ -455,14 +463,14 @@
         }
       }
     },
-    "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
+    "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj",
+        "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj",
         "projectName": "InventoryManagement.Infrastructure.EfCore",
-        "projectPath": "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj",
+        "projectPath": "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj",
         "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Infrastructure.EfCore\\obj\\",
+        "outputPath": "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Infrastructure.EfCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -479,11 +487,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
+              "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
               },
-              "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
+              "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
               }
             }
           }
@@ -532,14 +540,14 @@
         }
       }
     },
-    "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj": {
+    "D:\\darsam\\Projects\\LampShade\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj",
+        "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj",
         "projectName": "ShopManagement.Application.contracts",
-        "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj",
+        "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj",
         "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\obj\\",
+        "outputPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Application.contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -556,8 +564,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj"
+              "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -590,14 +598,14 @@
         }
       }
     },
-    "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+    "D:\\darsam\\Projects\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "projectName": "ShopManagement.Domain",
-        "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Domain\\obj\\",
+        "outputPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -614,11 +622,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj"
+              "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj"
+              "D:\\darsam\\Projects\\LampShade\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj"
               }
             }
           }
@@ -651,14 +659,14 @@
         }
       }
     },
-    "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+    "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
+        "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
         "projectName": "ShopManagement.Infrastructure.EfCore",
-        "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
+        "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
         "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\obj\\",
+        "outputPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Infrastracture.EfCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -675,8 +683,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "D:\\ProjectGit\\HouseHoldShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "D:\\darsam\\Projects\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "D:\\darsam\\Projects\\LampShade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }

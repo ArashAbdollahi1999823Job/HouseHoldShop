@@ -2669,6 +2669,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "1.1.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "1.1.0",
           "Microsoft.EntityFrameworkCore": "5.0.0"
         },
         "compile": {
@@ -8649,11 +8651,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagemenet.Configuration\\DiscountManagement.Configuration.csproj",
+      "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\DiscountManagemenet.Configuration\\DiscountManagement.Configuration.csproj",
       "projectName": "DiscountManagement.Configuration",
-      "projectPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagemenet.Configuration\\DiscountManagement.Configuration.csproj",
+      "projectPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagemenet.Configuration\\DiscountManagement.Configuration.csproj",
       "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagemenet.Configuration\\obj\\",
+      "outputPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagemenet.Configuration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8670,14 +8672,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\ProjectGit\\HouseHoldShop\\Discount.Management.Application\\Discount.Management.Application.csproj": {
-              "projectPath": "D:\\ProjectGit\\HouseHoldShop\\Discount.Management.Application\\Discount.Management.Application.csproj"
+            "D:\\darsam\\Projects\\LampShade\\Discount.Management.Application\\Discount.Management.Application.csproj": {
+              "projectPath": "D:\\darsam\\Projects\\LampShade\\Discount.Management.Application\\Discount.Management.Application.csproj"
             },
-            "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
-              "projectPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+            "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+              "projectPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
             },
-            "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj": {
-              "projectPath": "D:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj"
+            "D:\\darsam\\Projects\\LampShade\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj": {
+              "projectPath": "D:\\darsam\\Projects\\LampShade\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj"
             }
           }
         }
