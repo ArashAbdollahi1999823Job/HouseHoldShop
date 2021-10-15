@@ -1,0 +1,12 @@
+D:\asp\LampShade\ShopManagement.Application.contracts\bin\Debug\netcoreapp3.1\ShopManagement.Application.contracts.deps.json
+D:\asp\LampShade\ShopManagement.Application.contracts\bin\Debug\netcoreapp3.1\ShopManagement.Application.contracts.dll
+D:\asp\LampShade\ShopManagement.Application.contracts\bin\Debug\netcoreapp3.1\ShopManagement.Application.contracts.pdb
+D:\asp\LampShade\ShopManagement.Application.contracts\bin\Debug\netcoreapp3.1\0_Framework.dll
+D:\asp\LampShade\ShopManagement.Application.contracts\bin\Debug\netcoreapp3.1\0_Framework.pdb
+D:\asp\LampShade\ShopManagement.Application.contracts\obj\Debug\netcoreapp3.1\ShopManagement.Application.contracts.csprojAssemblyReference.cache
+D:\asp\LampShade\ShopManagement.Application.contracts\obj\Debug\netcoreapp3.1\ShopManagement.Application.contracts.AssemblyInfoInputs.cache
+D:\asp\LampShade\ShopManagement.Application.contracts\obj\Debug\netcoreapp3.1\ShopManagement.Application.contracts.AssemblyInfo.cs
+D:\asp\LampShade\ShopManagement.Application.contracts\obj\Debug\netcoreapp3.1\ShopManagement.Application.contracts.csproj.CoreCompileInputs.cache
+D:\asp\LampShade\ShopManagement.Application.contracts\obj\Debug\netcoreapp3.1\ShopManagement.Application.contracts.csproj.CopyComplete
+D:\asp\LampShade\ShopManagement.Application.contracts\obj\Debug\netcoreapp3.1\ShopManagement.Application.contracts.dll
+D:\asp\LampShade\ShopManagement.Application.contracts\obj\Debug\netcoreapp3.1\ShopManagement.Application.contracts.pdb

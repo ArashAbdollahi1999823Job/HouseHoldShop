@@ -1,0 +1,16 @@
+D:\asp\LampShade\Discount.Management.Application\bin\Debug\netcoreapp3.1\Discount.Management.Application.deps.json
+D:\asp\LampShade\Discount.Management.Application\bin\Debug\netcoreapp3.1\Discount.Management.Application.dll
+D:\asp\LampShade\Discount.Management.Application\bin\Debug\netcoreapp3.1\Discount.Management.Application.pdb
+D:\asp\LampShade\Discount.Management.Application\bin\Debug\netcoreapp3.1\0_Framework.dll
+D:\asp\LampShade\Discount.Management.Application\bin\Debug\netcoreapp3.1\DiscountManagement.Application.Contract.dll
+D:\asp\LampShade\Discount.Management.Application\bin\Debug\netcoreapp3.1\DiscountManagement.Domain.dll
+D:\asp\LampShade\Discount.Management.Application\bin\Debug\netcoreapp3.1\DiscountManagement.Application.Contract.pdb
+D:\asp\LampShade\Discount.Management.Application\bin\Debug\netcoreapp3.1\DiscountManagement.Domain.pdb
+D:\asp\LampShade\Discount.Management.Application\bin\Debug\netcoreapp3.1\0_Framework.pdb
+D:\asp\LampShade\Discount.Management.Application\obj\Debug\netcoreapp3.1\Discount.Management.Application.csprojAssemblyReference.cache
+D:\asp\LampShade\Discount.Management.Application\obj\Debug\netcoreapp3.1\Discount.Management.Application.AssemblyInfoInputs.cache
+D:\asp\LampShade\Discount.Management.Application\obj\Debug\netcoreapp3.1\Discount.Management.Application.AssemblyInfo.cs
+D:\asp\LampShade\Discount.Management.Application\obj\Debug\netcoreapp3.1\Discount.Management.Application.csproj.CoreCompileInputs.cache
+D:\asp\LampShade\Discount.Management.Application\obj\Debug\netcoreapp3.1\Discount.Management.Application.csproj.CopyComplete
+D:\asp\LampShade\Discount.Management.Application\obj\Debug\netcoreapp3.1\Discount.Management.Application.dll
+D:\asp\LampShade\Discount.Management.Application\obj\Debug\netcoreapp3.1\Discount.Management.Application.pdb

@@ -1,0 +1,17 @@
+D:\asp\LampShade\DiscountManagement.Contract\bin\Release\net5.0\DiscountManagement.Application.Contract.deps.json
+D:\asp\LampShade\DiscountManagement.Contract\bin\Release\net5.0\DiscountManagement.Application.Contract.dll
+D:\asp\LampShade\DiscountManagement.Contract\bin\Release\net5.0\ref\DiscountManagement.Application.Contract.dll
+D:\asp\LampShade\DiscountManagement.Contract\bin\Release\net5.0\DiscountManagement.Application.Contract.pdb
+D:\asp\LampShade\DiscountManagement.Contract\bin\Release\net5.0\0_Framework.dll
+D:\asp\LampShade\DiscountManagement.Contract\bin\Release\net5.0\0_Framework.pdb
+D:\asp\LampShade\DiscountManagement.Contract\obj\Release\net5.0\DiscountManagement.Application.Contract.csprojAssemblyReference.cache
+D:\asp\LampShade\DiscountManagement.Contract\obj\Release\net5.0\DiscountManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp\LampShade\DiscountManagement.Contract\obj\Release\net5.0\DiscountManagement.Application.Contract.AssemblyInfoInputs.cache
+D:\asp\LampShade\DiscountManagement.Contract\obj\Release\net5.0\DiscountManagement.Application.Contract.AssemblyInfo.cs
+D:\asp\LampShade\DiscountManagement.Contract\obj\Release\net5.0\DiscountManagement.Application.Contract.csproj.CoreCompileInputs.cache
+D:\asp\LampShade\DiscountManagement.Contract\obj\Release\net5.0\DiscountManagement.Application.Contract.csproj.CopyComplete
+D:\asp\LampShade\DiscountManagement.Contract\obj\Release\net5.0\DiscountManagement.Application.Contract.dll
+D:\asp\LampShade\DiscountManagement.Contract\obj\Release\net5.0\ref\DiscountManagement.Application.Contract.dll
+D:\asp\LampShade\DiscountManagement.Contract\obj\Release\net5.0\DiscountManagement.Application.Contract.pdb
+D:\asp\LampShade\DiscountManagement.Contract\bin\Release\net5.0\ShopManagement.Application.contracts.dll
+D:\asp\LampShade\DiscountManagement.Contract\bin\Release\net5.0\ShopManagement.Application.contracts.pdb

@@ -1,0 +1,11 @@
+D:\asp\LampShade\0_Framework\bin\Release\net5.0\0_Framework.deps.json
+D:\asp\LampShade\0_Framework\bin\Release\net5.0\0_Framework.dll
+D:\asp\LampShade\0_Framework\bin\Release\net5.0\ref\0_Framework.dll
+D:\asp\LampShade\0_Framework\bin\Release\net5.0\0_Framework.pdb
+D:\asp\LampShade\0_Framework\obj\Release\net5.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp\LampShade\0_Framework\obj\Release\net5.0\0_Framework.AssemblyInfoInputs.cache
+D:\asp\LampShade\0_Framework\obj\Release\net5.0\0_Framework.AssemblyInfo.cs
+D:\asp\LampShade\0_Framework\obj\Release\net5.0\0_Framework.csproj.CoreCompileInputs.cache
+D:\asp\LampShade\0_Framework\obj\Release\net5.0\0_Framework.dll
+D:\asp\LampShade\0_Framework\obj\Release\net5.0\ref\0_Framework.dll
+D:\asp\LampShade\0_Framework\obj\Release\net5.0\0_Framework.pdb
