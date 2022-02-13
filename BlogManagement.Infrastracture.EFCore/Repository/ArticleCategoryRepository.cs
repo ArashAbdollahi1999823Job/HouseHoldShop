@@ -15,6 +15,11 @@ namespace BlogManagement.Infrastructure.EFCore.Repository
             _context = context;
         }
 
+        public string GetSlugById(long id)
+        {
+            return _context.ArticleCategories.Select(x => new { x.Id, x.Slug }).FirstOrDefault(x => x.Id == id)?.Slug;
+        }
+
         public EditArticleCategory GetDetails(long id)
         {
             return _context.ArticleCategories.Select(x=>new EditArticleCategory
@@ -30,6 +35,16 @@ namespace BlogManagement.Infrastructure.EFCore.Repository
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
             }).FirstOrDefault(x => x.Id == id);
+        }
+
+        public List<ArticleCategoryViewModel> GetArticleCategories()
+        {
+            return _context.ArticleCategories.Select(x => new ArticleCategoryViewModel
+            {
+                Id = x.Id,
+                Name = x.Name,
+
+            }).ToList();
         }
 
         public List<ArticleCategoryViewModel> Search(ArticleCategorySearchModel searchModel)

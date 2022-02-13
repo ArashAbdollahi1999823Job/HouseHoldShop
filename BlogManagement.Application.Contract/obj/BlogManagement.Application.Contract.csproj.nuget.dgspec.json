@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\darsam\\Projects\\LampShade\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj": {}
+    "E:\\ProjectGit\\HouseHoldShop\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj": {}
   },
   "projects": {
-    "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj": {
+    "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj",
-        "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-        "outputPath": "D:\\darsam\\Projects\\LampShade\\0_Framework\\obj\\",
+        "projectPath": "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,20 +37,20 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
-              "version": "[1.1.0, )"
+              "version": "[5.0.14, )"
             },
             "Microsoft.AspNetCore.Mvc.Abstractions": {
               "target": "Package",
-              "version": "[1.1.0, )"
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
@@ -68,36 +68,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\darsam\\Projects\\LampShade\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj": {
+    "E:\\ProjectGit\\HouseHoldShop\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\darsam\\Projects\\LampShade\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj",
+        "projectUniqueName": "E:\\ProjectGit\\HouseHoldShop\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj",
         "projectName": "BlogManagement.Application.Contract",
-        "projectPath": "D:\\darsam\\Projects\\LampShade\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj",
-        "packagesPath": "C:\\Users\\saman\\.nuget\\packages\\",
-        "outputPath": "D:\\darsam\\Projects\\LampShade\\BlogManagement.Application.Contract\\obj\\",
+        "projectPath": "E:\\ProjectGit\\HouseHoldShop\\BlogManagement.Application.Contract\\BlogManagement.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectGit\\HouseHoldShop\\BlogManagement.Application.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\saman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\darsam\\Projects\\LampShade\\0_Framework\\0_Framework.csproj"
+              "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -109,12 +109,12 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
-              "version": "[1.1.0, )"
+              "version": "[5.0.14, )"
             }
           },
           "imports": [
@@ -132,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

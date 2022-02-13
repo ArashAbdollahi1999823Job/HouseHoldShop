@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using _0_Framework.Domain;
+using BlogManagement.Domain.ArticleAgg;
 
 namespace BlogManagement.Domain.ArticleCategoryAgg
 {
@@ -24,6 +25,9 @@ namespace BlogManagement.Domain.ArticleCategoryAgg
         public string MetaDescription { get; private set; }
         public string Keywords { get; private set; }
         public string CanonicalAddress { get; private set; }
+
+
+        public List<Article> Articles { get;private set; }
 
 
         public ArticleCategory(string name, string description, string picture, int showOrder, 

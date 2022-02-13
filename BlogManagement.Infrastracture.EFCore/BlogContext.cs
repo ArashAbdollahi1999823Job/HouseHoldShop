@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BlogManagement.Domain.ArticleAgg;
 using BlogManagement.Domain.ArticleCategoryAgg;
 using BlogManagement.Infrastructure.EFCore.Mappings;
 using Microsoft.EntityFrameworkCore;
@@ -13,7 +14,7 @@ namespace BlogManagement.Infrastructure.EFCore
     {
 
         public DbSet<ArticleCategory> ArticleCategories { get; set; }
-
+        public DbSet<Article> Articles { get; set; }
         public BlogContext(DbContextOptions<BlogContext> options) : base(options)
         {
         }
