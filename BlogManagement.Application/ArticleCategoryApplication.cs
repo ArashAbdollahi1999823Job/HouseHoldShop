@@ -51,7 +51,7 @@ namespace BlogManagement.Application
 
             if (articleCategory==null) return operation.Failed(ApplicationMessages.RecordNotFound);
 
-            if (_articleCategoryRepository.Exists(x => x.Name == command.Name && x.Id == command.Id))
+            if (_articleCategoryRepository.Exists(x => x.Name == command.Name && x.Id != command.Id))
             {
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
             }

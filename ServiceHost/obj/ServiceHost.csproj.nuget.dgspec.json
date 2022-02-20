@@ -28,6 +28,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "E:\\ProjectGit\\HouseHoldShop\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj"
+              },
               "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj": {
                 "projectPath": "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj"
               },
@@ -420,6 +423,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "E:\\ProjectGit\\HouseHoldShop\\01_Query\\01_Query.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\01_Query\\01_Query.csproj"
+              },
               "E:\\ProjectGit\\HouseHoldShop\\BlogManagement.Application\\BlogManagement.Application.csproj": {
                 "projectPath": "E:\\ProjectGit\\HouseHoldShop\\BlogManagement.Application\\BlogManagement.Application.csproj"
               },

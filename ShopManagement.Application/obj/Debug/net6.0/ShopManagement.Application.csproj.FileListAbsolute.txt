@@ -27,6 +27,7 @@ E:\ProjectGit\HouseHoldShop\ShopManagement.Application\bin\Debug\net6.0\ShopMana
 E:\ProjectGit\HouseHoldShop\ShopManagement.Application\bin\Debug\net6.0\0_Framework.pdb
 E:\ProjectGit\HouseHoldShop\ShopManagement.Application\bin\Debug\net6.0\ShopManagement.Application.contracts.pdb
 E:\ProjectGit\HouseHoldShop\ShopManagement.Application\bin\Debug\net6.0\ShopManagement.Domain.pdb
+E:\ProjectGit\HouseHoldShop\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.csproj.AssemblyReference.cache
 E:\ProjectGit\HouseHoldShop\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
 E:\ProjectGit\HouseHoldShop\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.AssemblyInfoInputs.cache
 E:\ProjectGit\HouseHoldShop\ShopManagement.Application\obj\Debug\net6.0\ShopManagement.Application.AssemblyInfo.cs

@@ -4,6 +4,73 @@
     "E:\\ProjectGit\\HouseHoldShop\\BlogManagement.Infrastructure.Configuration\\BlogManagement.Infrastructure.Configuration.csproj": {}
   },
   "projects": {
+    "E:\\ProjectGit\\HouseHoldShop\\01_Query\\01_Query.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProjectGit\\HouseHoldShop\\01_Query\\01_Query.csproj",
+        "projectName": "01_Query",
+        "projectPath": "E:\\ProjectGit\\HouseHoldShop\\01_Query\\01_Query.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectGit\\HouseHoldShop\\01_Query\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\ProjectGit\\HouseHoldShop\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\BlogManagement.Infrastracture.EFCore\\BlogManagement.Infrastructure.EFCore.csproj"
+              },
+              "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj"
+              },
+              "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
+              },
+              "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -356,6 +423,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "E:\\ProjectGit\\HouseHoldShop\\01_Query\\01_Query.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\01_Query\\01_Query.csproj"
+              },
               "E:\\ProjectGit\\HouseHoldShop\\BlogManagement.Application\\BlogManagement.Application.csproj": {
                 "projectPath": "E:\\ProjectGit\\HouseHoldShop\\BlogManagement.Application\\BlogManagement.Application.csproj"
               },
@@ -378,6 +448,603 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj",
+        "projectName": "DiscountManagement.Application.Contract",
+        "projectPath": "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj"
+              },
+              "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectName": "DiscountManagement.Domain",
+        "projectPath": "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj"
+              },
+              "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Contract\\DiscountManagement.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj",
+        "projectName": "DiscountManagement.infrastructure.EFCore",
+        "projectPath": "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\DiscountManagement.infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.infrastructure.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              },
+              "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj",
+        "projectName": "InventoryManagement.Application.Contract",
+        "projectPath": "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Application.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj"
+              },
+              "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "projectName": "InventoryManagement.Domain",
+        "projectPath": "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj"
+              },
+              "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Application.Contract\\InventoryManagement.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj",
+        "projectName": "InventoryManagement.Infrastructure.EfCore",
+        "projectPath": "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Infrastructure.EfCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
+              },
+              "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj",
+        "projectName": "ShopManagement.Application.contracts",
+        "projectPath": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectName": "ShopManagement.Domain",
+        "projectPath": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\0_Framework\\0_Framework.csproj"
+              },
+              "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Application.contracts\\ShopManagement.Application.contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
+        "projectName": "ShopManagement.Infrastructure.EfCore",
+        "projectPath": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
+        "packagesPath": "C:\\Users\\Arash\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Infrastracture.EfCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "E:\\ProjectGit\\HouseHoldShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
             }
           },
           "imports": [

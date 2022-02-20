@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\01_Query\01_Query.csproj" />
     <ProjectReference Include="..\BlogManagement.Application\BlogManagement.Application.csproj" />
     <ProjectReference Include="..\BlogManagement.Infrastracture.EFCore\BlogManagement.Infrastructure.EFCore.csproj" />
   </ItemGroup>
