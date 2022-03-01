@@ -3,23 +3,32 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
+using _01_Query;
+using _01_Query.Contracts.ArticleCategory;
 using _01_Query.Contracts.ProductCategory;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Build.Execution;
 
 namespace ServiceHost.ViewComponents
 {
     public class MenuViewComponent:ViewComponent
     {
-        public readonly IProductCategoryQuery _productCategoryQuery;
-
-        public MenuViewComponent(IProductCategoryQuery productCategoryQuery)
+        private readonly IProductCategoryQuery _productCategoryQuery;
+        private readonly IArticleCategoryQuery _articleCategoryQuery;
+        public MenuViewComponent(IProductCategoryQuery productCategoryQuery, IArticleCategoryQuery articleCategoryQuery)
         {
             _productCategoryQuery = productCategoryQuery;
+            _articleCategoryQuery = articleCategoryQuery;
         }
 
         public IViewComponentResult Invoke()
         {
-            return View();
+            var result = new MenuModel()
+            {
+                ArticleCategories = _articleCategoryQuery.GetArticleCategories(),
+                ProductCategories = _productCategoryQuery.GetProductCategory(),
+            };
+            return View(result);
         }
     }
 }

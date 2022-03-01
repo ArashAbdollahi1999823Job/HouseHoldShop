@@ -30,4 +30,3 @@ E:\ProjectGit\HouseHoldShop\ShopManagement.Domain\obj\Debug\net6.0\ShopManagemen
 E:\ProjectGit\HouseHoldShop\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.dll
 E:\ProjectGit\HouseHoldShop\ShopManagement.Domain\obj\Debug\net6.0\ref\ShopManagement.Domain.dll
 E:\ProjectGit\HouseHoldShop\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.pdb
-E:\ProjectGit\HouseHoldShop\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.csproj.AssemblyReference.cache

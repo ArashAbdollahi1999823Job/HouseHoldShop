@@ -47,6 +47,9 @@ E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\0_Fram
 E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\BlogManagement.Application.Contract.dll
 E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\BlogManagement.Domain.dll
 E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\BlogManagement.Infrastructure.EFCore.dll
+E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\CommentManagement.Application.Contracts.dll
+E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\CommentManagement.Domain.dll
+E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\CommentManagement.Infrastructure.EFCore.dll
 E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Application.Contract.dll
 E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Domain.dll
 E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagement.infrastructure.EFCore.dll
@@ -65,6 +68,9 @@ E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\0_Fram
 E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\BlogManagement.Application.Contract.pdb
 E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\BlogManagement.Domain.pdb
 E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\BlogManagement.Infrastructure.EFCore.pdb
+E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\CommentManagement.Application.Contracts.pdb
+E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\CommentManagement.Domain.pdb
+E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\CommentManagement.Infrastructure.EFCore.pdb
 E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Application.Contract.pdb
 E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Domain.pdb
 E:\ProjectGit\HouseHoldShop\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagement.infrastructure.EFCore.pdb

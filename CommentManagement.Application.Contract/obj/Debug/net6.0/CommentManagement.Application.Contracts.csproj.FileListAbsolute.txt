@@ -1,0 +1,15 @@
+E:\ProjectGit\HouseHoldShop\CommentManagement.Application.Contract\bin\Debug\net6.0\CommentManagement.Application.Contracts.deps.json
+E:\ProjectGit\HouseHoldShop\CommentManagement.Application.Contract\bin\Debug\net6.0\CommentManagement.Application.Contracts.dll
+E:\ProjectGit\HouseHoldShop\CommentManagement.Application.Contract\bin\Debug\net6.0\ref\CommentManagement.Application.Contracts.dll
+E:\ProjectGit\HouseHoldShop\CommentManagement.Application.Contract\bin\Debug\net6.0\CommentManagement.Application.Contracts.pdb
+E:\ProjectGit\HouseHoldShop\CommentManagement.Application.Contract\bin\Debug\net6.0\0_Framework.dll
+E:\ProjectGit\HouseHoldShop\CommentManagement.Application.Contract\bin\Debug\net6.0\0_Framework.pdb
+E:\ProjectGit\HouseHoldShop\CommentManagement.Application.Contract\obj\Debug\net6.0\CommentManagement.Application.Contracts.csproj.AssemblyReference.cache
+E:\ProjectGit\HouseHoldShop\CommentManagement.Application.Contract\obj\Debug\net6.0\CommentManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjectGit\HouseHoldShop\CommentManagement.Application.Contract\obj\Debug\net6.0\CommentManagement.Application.Contracts.AssemblyInfoInputs.cache
+E:\ProjectGit\HouseHoldShop\CommentManagement.Application.Contract\obj\Debug\net6.0\CommentManagement.Application.Contracts.AssemblyInfo.cs
+E:\ProjectGit\HouseHoldShop\CommentManagement.Application.Contract\obj\Debug\net6.0\CommentManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\ProjectGit\HouseHoldShop\CommentManagement.Application.Contract\obj\Debug\net6.0\CommentManagement.Application.Contracts.csproj.CopyComplete
+E:\ProjectGit\HouseHoldShop\CommentManagement.Application.Contract\obj\Debug\net6.0\CommentManagement.Application.Contracts.dll
+E:\ProjectGit\HouseHoldShop\CommentManagement.Application.Contract\obj\Debug\net6.0\ref\CommentManagement.Application.Contracts.dll
+E:\ProjectGit\HouseHoldShop\CommentManagement.Application.Contract\obj\Debug\net6.0\CommentManagement.Application.Contracts.pdb

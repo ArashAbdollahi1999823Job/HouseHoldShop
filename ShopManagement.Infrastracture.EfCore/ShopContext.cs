@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ShopManagement.Domain.CommentAgg;
+
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
@@ -14,7 +14,6 @@ namespace ShopManagement.Infrastructure.EfCore
         public DbSet<Product> Products { set; get; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
         public DbSet<Slider> Sliders { get; set; }
-        public DbSet<Comment> Comments { get; set; }
         public ShopContext(DbContextOptions<ShopContext> options):base(options)
         {
         }

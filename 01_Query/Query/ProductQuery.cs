@@ -1,16 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 using _0_Framework.Application;
+using _01_Query.Contracts.Comment;
 using _01_Query.Contracts.Product;
+using CommentManagement.Infrastructure.EFCore;
 using DiscountManagement.infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EfCore;
 using Microsoft.EntityFrameworkCore;
-using ShopManagement.Domain.CommentAgg;
-using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EfCore;
 
@@ -22,15 +19,17 @@ namespace _01_Query.Query
         private readonly ShopContext _context;
         private readonly InventoryContext _inventoryContext;
         private readonly DiscountContext _discountContext;
+        private readonly CommentContext _commentContext;
 
-        public ProductQuery(ShopContext context, InventoryContext inventoryContext, DiscountContext discountContext)
+        public ProductQuery(ShopContext context, InventoryContext inventoryContext, DiscountContext discountContext, CommentContext commentContext)
         {
             _context = context;
             _inventoryContext = inventoryContext;
             _discountContext = discountContext;
+            _commentContext = commentContext;
         }
 
-        public ProductQueryModel GetDetails(string slug)
+        public ProductQueryModel GetProductDetails(string slug)
         {
             var inventory =
                 _inventoryContext
@@ -46,12 +45,12 @@ namespace _01_Query.Query
                     .ToList();
 
 
+
             var product =
                 _context
                     .Products
                     .Include(x => x.Category)
                     .Include(x => x.ProductPictures)
-                    .Include(x=>x.Comments)
                     .Select(x => new ProductQueryModel()
                     {
                         Id = x.Id,
@@ -68,9 +67,26 @@ namespace _01_Query.Query
                         MetaDescription = x.MetaDescription,
                         Keywords = x.Keywords,
                         Pictures = MapProductPicture(x.ProductPictures),
-                        Comments = MapComments(x.Comments),
                     })
+                    .AsNoTracking()
                     .FirstOrDefault(x => x.Slug == slug);
+
+            product.Comments =
+                _commentContext
+                    .Comments
+                    .Where(x => x.Type == CommentType.Product)
+                    .Where(x => x.OwnerRecordId == product.Id)
+                    .Where(x => x.IsConfirmed)
+                    .Where(x => !x.IsCanceled)
+                    .Select(x => new CommentQueryModel()
+                    {
+                        Id = x.Id,
+                        Message = x.Message,
+                        Name = x.Name,
+                        CreationDate = x.CreationDate.ToFarsi(),
+                    })
+                    .OrderByDescending(x => x.Id)
+                    .ToList();
 
             var inventoryePrice =
                 inventory
@@ -112,6 +128,7 @@ namespace _01_Query.Query
             return product;
         }
 
+        /*
         private static List<CommentQueryModel> MapComments(List<Comment> comments)
         {
             return comments
@@ -124,6 +141,7 @@ namespace _01_Query.Query
                 Name = x.Name,
             }).OrderByDescending(x=>x.Id).ToList();
         }
+        */
 
         private static List<ProductPictureQueryModel> MapProductPicture(List<ProductPicture> pictures)
         {

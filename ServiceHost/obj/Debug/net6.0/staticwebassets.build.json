@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NRsEoqE4+6lekDo03+BpGXV6ozdB4PX1rlUlQwu59xY=",
+  "Hash": "m2+dabPdUPeJa/KImMHwi8HYHIIUrYTg/TNfJPtSwB8=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -5508,6 +5508,23 @@
       "OriginalItemSpec": "wwwroot\\ProductPictures\\ساخت-وسایل-خانه\\2022-02-20-14-22-22-ساخت.jpg"
     },
     {
+      "Identity": "E:\\ProjectGit\\HouseHoldShop\\ServiceHost\\wwwroot\\ProductPictures\\ساخت-وسایل-خانه\\ساخت-ظرف-چوبی\\2022-02-20-14-50-01-ساخت ظرف چوبی2.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ProjectGit\\HouseHoldShop\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "ProductPictures/ساخت-وسایل-خانه/ساخت-ظرف-چوبی/2022-02-20-14-50-01-ساخت ظرف چوبی2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductPictures\\ساخت-وسایل-خانه\\ساخت-ظرف-چوبی\\2022-02-20-14-50-01-ساخت ظرف چوبی2.jpg"
+    },
+    {
       "Identity": "E:\\ProjectGit\\HouseHoldShop\\ServiceHost\\wwwroot\\ProductPictures\\ساخت-وسایل-خانه\\ساخت-میز\\2022-02-20-14-24-31-ساخت میز.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
@@ -6339,6 +6356,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\fonts\\IranianSans.woff2"
+    },
+    {
+      "Identity": "E:\\ProjectGit\\HouseHoldShop\\ServiceHost\\wwwroot\\Theme\\assets\\img\\avatar.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ProjectGit\\HouseHoldShop\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/img/avatar.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\avatar.jpg"
     },
     {
       "Identity": "E:\\ProjectGit\\HouseHoldShop\\ServiceHost\\wwwroot\\Theme\\assets\\img\\backgrounds\\bkg_testimonials.jpg",
@@ -7699,6 +7733,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\testimonial\\testimor3-72x72.png"
+    },
+    {
+      "Identity": "E:\\ProjectGit\\HouseHoldShop\\ServiceHost\\wwwroot\\Theme\\assets\\img\\UserIcon.png",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ProjectGit\\HouseHoldShop\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/img/UserIcon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\UserIcon.png"
     },
     {
       "Identity": "E:\\ProjectGit\\HouseHoldShop\\ServiceHost\\wwwroot\\Theme\\assets\\js\\active.js",

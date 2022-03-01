@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _01_Query.Contracts.Article;
 using BlogManagement.Domain.ArticleAgg;
 
 namespace _01_Query.Contracts.ArticleCategory
@@ -22,10 +23,11 @@ namespace _01_Query.Contracts.ArticleCategory
         public string Slug { get;  set; }
         public string MetaDescription { get;  set; }
         public string Keywords { get;  set; }
+        public List<string> KeyWordList { get; set; }
         public string CanonicalAddress { get;  set; }
         public int ArticlesCount { get; set; }
 
-
+        public List<ArticleQueryModel> Articles { get; set; }
        
     }
 }

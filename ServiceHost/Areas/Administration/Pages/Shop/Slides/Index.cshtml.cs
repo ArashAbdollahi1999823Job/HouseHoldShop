@@ -1,10 +1,7 @@
 using System.Collections.Generic;
+using CommentManagement.Application.Contracts.Comment;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using ShopManagement.Application.contracts.Comment;
-using ShopManagement.Application.contracts.Product;
-using ShopManagement.Application.contracts.ProductPicture;
 using ShopManagement.Application.contracts.Slider;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.Slides

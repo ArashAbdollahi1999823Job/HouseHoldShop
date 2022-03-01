@@ -1,4 +1,11 @@
-﻿<div class="header-area header-sticky">
+﻿@model  _01_Query.MenuModel
+
+@{
+
+}
+
+
+<div class="header-area header-sticky">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -19,62 +26,26 @@
                                 </li>
 
                                 <li class="menu-item-has-children">
-                                    <a href="#">محصولات</a>
+                                    <a >محصولات</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Page List One</a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="cart.html">Cart</a>
-                                                </li>
-                                                <li>
-                                                    <a href="checkout.html">Checkout</a>
-                                                </li>
-                                                <li>
-                                                    <a href="wishlist.html">Wishlist</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">page list two</a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="my-account.html">My Account</a>
-                                                </li>
-                                                <li>
-                                                    <a href="login-register.html">Login Register</a>
-                                                </li>
-                                                <li>
-                                                    <a href="faq.html">FAQ</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Page list three</a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="compare.html">Compare</a>
-                                                </li>
-                                                <li>
-                                                    <a href="contact.html">Contact</a>
-                                                </li>
-                                                <li>
-                                                    <a href="about.html">About Us</a>
-                                                </li>
-                                            </ul>
-                                        </li>
+                                        @foreach (var productCategory in Model.ProductCategories)
+                                                {
+                                                    <li>
+                                                        <a asp-page="/ProductCategory" asp-route-id="@productCategory.Slug">@productCategory.Name</a>
+                                                    </li>
+                                                }
                                     </ul>
                                 </li>
 
                                 <li class="menu-item-has-children">
-                                    <a href="blog-left-sidebar.html">محصولات2</a>
+                                    <a >مقالات گروه</a>
                                     <ul class="sub-menu">
-                                        <li>
-                                            <a href="blog-left-sidebar.html">دکوری</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-right-sidebar.html">نگهدارنده</a>
-                                        </li>
+                                        @foreach (var articleCategory in Model.ArticleCategories)
+                                        {
+                                            <li>
+                                                <a asp-page="/ArticleCategory" asp-route-slug="@articleCategory.Slug">@articleCategory.Name</a>
+                                            </li>
+                                        }
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">

@@ -20,3 +20,4 @@ E:\ProjectGit\HouseHoldShop\0_Framework\obj\Debug\net6.0\0_Framework.csproj.Core
 E:\ProjectGit\HouseHoldShop\0_Framework\obj\Debug\net6.0\0_Framework.dll
 E:\ProjectGit\HouseHoldShop\0_Framework\obj\Debug\net6.0\ref\0_Framework.dll
 E:\ProjectGit\HouseHoldShop\0_Framework\obj\Debug\net6.0\0_Framework.pdb
+E:\ProjectGit\HouseHoldShop\0_Framework\obj\Debug\net6.0\0_Framework.csproj.AssemblyReference.cache
