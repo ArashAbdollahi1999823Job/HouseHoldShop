@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
-using _01_Query;
+﻿using _01_Query;
 using _01_Query.Contracts.ArticleCategory;
 using _01_Query.Contracts.ProductCategory;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Build.Execution;
 
 namespace ServiceHost.ViewComponents
 {

@@ -31,3 +31,15 @@ C:\Users\Arash\source\repos\HouseHoldShop\0_Framework\obj\Debug\net6.0\0_Framewo
 C:\Users\Arash\source\repos\HouseHoldShop\0_Framework\obj\Debug\net6.0\0_Framework.dll
 C:\Users\Arash\source\repos\HouseHoldShop\0_Framework\obj\Debug\net6.0\ref\0_Framework.dll
 C:\Users\Arash\source\repos\HouseHoldShop\0_Framework\obj\Debug\net6.0\0_Framework.pdb
+C:\Users\Arash\Downloads\HouseHoldShop-master\HouseHoldShop-master\0_Framework\bin\Debug\net6.0\0_Framework.deps.json
+C:\Users\Arash\Downloads\HouseHoldShop-master\HouseHoldShop-master\0_Framework\bin\Debug\net6.0\0_Framework.dll
+C:\Users\Arash\Downloads\HouseHoldShop-master\HouseHoldShop-master\0_Framework\bin\Debug\net6.0\ref\0_Framework.dll
+C:\Users\Arash\Downloads\HouseHoldShop-master\HouseHoldShop-master\0_Framework\bin\Debug\net6.0\0_Framework.pdb
+C:\Users\Arash\Downloads\HouseHoldShop-master\HouseHoldShop-master\0_Framework\obj\Debug\net6.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arash\Downloads\HouseHoldShop-master\HouseHoldShop-master\0_Framework\obj\Debug\net6.0\0_Framework.AssemblyInfoInputs.cache
+C:\Users\Arash\Downloads\HouseHoldShop-master\HouseHoldShop-master\0_Framework\obj\Debug\net6.0\0_Framework.AssemblyInfo.cs
+C:\Users\Arash\Downloads\HouseHoldShop-master\HouseHoldShop-master\0_Framework\obj\Debug\net6.0\0_Framework.csproj.CoreCompileInputs.cache
+C:\Users\Arash\Downloads\HouseHoldShop-master\HouseHoldShop-master\0_Framework\obj\Debug\net6.0\0_Framework.dll
+C:\Users\Arash\Downloads\HouseHoldShop-master\HouseHoldShop-master\0_Framework\obj\Debug\net6.0\ref\0_Framework.dll
+C:\Users\Arash\Downloads\HouseHoldShop-master\HouseHoldShop-master\0_Framework\obj\Debug\net6.0\0_Framework.pdb
+E:\ProjectGit\HouseHoldShop\0_Framework\obj\Debug\net6.0\0_Framework.csproj.AssemblyReference.cache

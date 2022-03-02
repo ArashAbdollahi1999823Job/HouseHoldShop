@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using DiscountManagement.Domain.CustomerDiscountAgg;
+﻿using DiscountManagement.Domain.CustomerDiscountAgg;
 using DiscountManagement.infrastructure.EFCore.Mapping;
 using Microsoft.EntityFrameworkCore;
 

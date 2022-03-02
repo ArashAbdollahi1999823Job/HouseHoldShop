@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using _0_Framework.Application;
 
 namespace ShopManagement.Application.contracts.ProductPicture

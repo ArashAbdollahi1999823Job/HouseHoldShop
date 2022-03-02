@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using _01_Query.Contracts.Article;
+﻿using _01_Query.Contracts.Article;
 using _01_Query.Contracts.ArticleCategory;
 using _01_Query.Query;
 using BlogManagement.Application;

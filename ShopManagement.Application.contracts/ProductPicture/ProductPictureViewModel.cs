@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ShopManagement.Application.contracts.ProductPicture
+﻿namespace ShopManagement.Application.contracts.ProductPicture
 {
     public class ProductPictureViewModel
     {

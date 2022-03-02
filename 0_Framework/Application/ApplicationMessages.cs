@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _0_Framework.Application
+﻿namespace _0_Framework.Application
 {
    public class ApplicationMessages
    {

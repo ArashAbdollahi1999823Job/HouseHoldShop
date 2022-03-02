@@ -93,17 +93,14 @@
                                                    asp-page-handler="Confirm"
                                                    asp-route-id="@item.Id"
                                                    class="btn btn-success">تایید</a>
-                                            }
-                                            @if (!item.IsCanceled)
+                                            }else if (!item.IsCanceled)
                                             {
 
                                                 <a asp-page="./index"
                                                    asp-page-handler="Cancel"
                                                    asp-route-id="@item.Id"
                                                    class="btn btn-danger">کنسل</a>
-                                            }
-
-                                            @if (!item.IsCanceled && !item.IsConfirmed)
+                                            }else if (!item.IsCanceled && !item.IsConfirmed)
                                             {
                                                 <a asp-page="./index"
                                                    asp-page-handler="Confirm"

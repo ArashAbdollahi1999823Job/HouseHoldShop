@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using _01_Query.Contracts.Article;
 using _01_Query.Contracts.ArticleCategory;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ServiceHost.Pages

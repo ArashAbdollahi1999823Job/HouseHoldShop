@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using BlogManagement.Application.Contract.ArticleCategory;
-
-namespace BlogManagement.Application.Contract.Article
+﻿namespace BlogManagement.Application.Contract.Article
 {
     public class ArticleSearchModel
     {

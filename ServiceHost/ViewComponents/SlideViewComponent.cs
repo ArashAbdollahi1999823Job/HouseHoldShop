@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using _01_Query.Contracts;
-using _01_Query.Contracts.Slide;
+﻿using _01_Query.Contracts.Slide;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ServiceHost.ViewComponents

@@ -1,6 +1,4 @@
-﻿using System.Dynamic;
-
-namespace InventoryManagement.Application.Contract.Inventory
+﻿namespace InventoryManagement.Application.Contract.Inventory
 {
     public class InventoryOperationViewModel
     {

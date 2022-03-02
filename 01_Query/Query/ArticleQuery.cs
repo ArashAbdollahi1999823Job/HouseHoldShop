@@ -1,14 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using _0_Framework.Application;
 using _01_Query.Contracts.Article;
 using _01_Query.Contracts.Comment;
-using _01_Query.Contracts.Product;
-using BlogManagement.Application.Contract.Article;
 using BlogManagement.Infrastructure.EFCore;
-using CommentManagement.Application.Contracts.Comment;
 using CommentManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -89,6 +85,7 @@ namespace _01_Query.Query
                         Message = x.Message,
                         CreationDate = x.CreationDate.ToFarsi(),
                     })
+                    .OrderByDescending(x=>x.Id)
                 .ToList();
 
 

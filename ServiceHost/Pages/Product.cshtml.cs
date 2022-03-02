@@ -1,10 +1,8 @@
-using System.Net;
 using _01_Query.Contracts.Product;
 using CommentManagement.Application.Contracts.Comment;
 using CommentManagement.Infrastructure.EFCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.IdentityModel.Tokens;
 
 namespace ServiceHost.Pages
 {

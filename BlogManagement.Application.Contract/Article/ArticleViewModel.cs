@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BlogManagement.Application.Contract.Article
+﻿namespace BlogManagement.Application.Contract.Article
 {
     public class ArticleViewModel
     {

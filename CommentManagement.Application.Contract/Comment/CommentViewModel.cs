@@ -1,6 +1,4 @@
-﻿using System.Security.AccessControl;
-
-namespace CommentManagement.Application.Contracts.Comment
+﻿namespace CommentManagement.Application.Contracts.Comment
 {
     public class CommentViewModel
     {

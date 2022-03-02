@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.contracts.Product;
 
 namespace DiscountManagement.Application.Contract.CustomerDiscount

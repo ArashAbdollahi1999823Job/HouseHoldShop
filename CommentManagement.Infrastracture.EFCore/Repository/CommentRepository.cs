@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using _0_Framework.Application;
+﻿using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using CommentManagement.Application.Contracts.Comment;
 using CommentManagement.Domain.CommentAgg;

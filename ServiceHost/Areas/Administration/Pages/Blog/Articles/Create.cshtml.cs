@@ -3,7 +3,6 @@ using BlogManagement.Application.Contract.ArticleCategory;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using ServiceHost.Areas.Administration.Pages.Blog.ArticleCategories;
 
 namespace ServiceHost.Areas.Administration.Pages.Blog.Articles
 {

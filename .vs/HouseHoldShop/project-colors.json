@@ -145,7 +145,12 @@
       "ProjectGuid": "c250f7a7-ff80-45c9-883e-39c5d4f32285",
       "DisplayName": "CommentManagement.Configuration",
       "ColorIndex": 11
+    },
+    "e334810c-5827-454a-8284-b8f65f95d401": {
+      "ProjectGuid": "e334810c-5827-454a-8284-b8f65f95d401",
+      "DisplayName": "CommentManagement.Application",
+      "ColorIndex": 12
     }
   },
-  "NextColorIndex": 12
+  "NextColorIndex": 13
 }

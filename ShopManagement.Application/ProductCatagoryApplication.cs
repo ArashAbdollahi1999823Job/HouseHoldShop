@@ -1,5 +1,4 @@
-﻿ using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using ShopManagement.Application.contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
 using _0_Framework.Application;
