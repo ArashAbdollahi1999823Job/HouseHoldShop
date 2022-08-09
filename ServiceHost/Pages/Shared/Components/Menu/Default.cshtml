@@ -1,9 +1,5 @@
 ﻿@model  _01_Query.MenuModel
-
-@{
-
-}
-
+@inject _0_Framework.Application.IAuthHelper AuthHelper;   
 
 <div class="header-area header-sticky">
     <div class="container">
@@ -48,21 +44,19 @@
                                         }
                                     </ul>
                                 </li>
-                                <li class="menu-item-has-children">
-                                    <a href="blog-left-sidebar.html">اطلاعیه ها</a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="blog-left-sidebar.html">دکوری</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-right-sidebar.html">نگهدارنده</a>
-                                        </li>
-                                    </ul>
-                                </li>
 
                                 <li>
                                     <a href="contact.html">تماس با ما</a>
                                 </li>
+                                @if(!AuthHelper.IsAuthenticated()){
+                                <li>
+                                    <a  asp-page="/Account">ورود</a>
+                                </li>
+                                }else{
+                                     <li>
+                                    <a  asp-page="/Account" asp-page-handler="Logout">خروج</a>
+                                </li>
+                                }
                             </ul>
                         </nav>
                     </div>

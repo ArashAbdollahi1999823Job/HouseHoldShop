@@ -1,0 +1,15 @@
+E:\ProjectGit\HouseHoldShop\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.csproj.AssemblyReference.cache
+E:\ProjectGit\HouseHoldShop\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjectGit\HouseHoldShop\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.AssemblyInfoInputs.cache
+E:\ProjectGit\HouseHoldShop\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.AssemblyInfo.cs
+E:\ProjectGit\HouseHoldShop\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\ProjectGit\HouseHoldShop\AccountManagement.Application.Contracts\bin\Debug\net6.0\AccountManagement.Application.Contracts.deps.json
+E:\ProjectGit\HouseHoldShop\AccountManagement.Application.Contracts\bin\Debug\net6.0\AccountManagement.Application.Contracts.dll
+E:\ProjectGit\HouseHoldShop\AccountManagement.Application.Contracts\bin\Debug\net6.0\AccountManagement.Application.Contracts.pdb
+E:\ProjectGit\HouseHoldShop\AccountManagement.Application.Contracts\bin\Debug\net6.0\0_Framework.dll
+E:\ProjectGit\HouseHoldShop\AccountManagement.Application.Contracts\bin\Debug\net6.0\0_Framework.pdb
+E:\ProjectGit\HouseHoldShop\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.csproj.CopyComplete
+E:\ProjectGit\HouseHoldShop\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.dll
+E:\ProjectGit\HouseHoldShop\AccountManagement.Application.Contracts\obj\Debug\net6.0\refint\AccountManagement.Application.Contracts.dll
+E:\ProjectGit\HouseHoldShop\AccountManagement.Application.Contracts\obj\Debug\net6.0\AccountManagement.Application.Contracts.pdb
+E:\ProjectGit\HouseHoldShop\AccountManagement.Application.Contracts\obj\Debug\net6.0\ref\AccountManagement.Application.Contracts.dll

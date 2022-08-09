@@ -7,9 +7,6 @@ using ShopManagement.Application.contracts.ProductPicture;
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPicture
 {
-
-
-
     public class IndexModel : PageModel
     {
         [TempData] 
